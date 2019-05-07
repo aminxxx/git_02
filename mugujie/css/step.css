@@ -1,0 +1,164 @@
+@charset 'utf-8';
+.step {
+  width: 1200px;
+  margin: 0 auto;
+}
+.step img {
+  width: 500px;
+  height: 82px;
+  float: right;
+}
+.step:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+.all_commodity {
+  width: 1200px;
+  height: 70px;
+  line-height: 70px;
+  margin: 0 auto;
+  display: none;
+}
+.all_commodity span {
+  font-size: 14px;
+  color: #333;
+  float: left;
+  border-bottom: 2px solid transparent;
+  margin-left: 15px;
+}
+.all_commodity span:nth-of-type(1) {
+  margin-left: 0;
+}
+.all_commodity span:hover {
+  border-bottom: 2px solid #ff4466;
+  color: #ff4466;
+}
+.commodity {
+  width: 1200px;
+  height: 50px;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+.commodity ul {
+  width: 100%;
+  height: 100%;
+  border: 1px solid #ddd;
+  box-sizing: border-box;
+  background: #f6f6f6;
+  overflow: hidden;
+}
+.commodity ul li {
+  float: left;
+  font-size: 12px;
+  color: #333;
+  height: 50px;
+  line-height: 50px;
+  padding: 0 25px;
+}
+.commodity ul li:nth-of-type(2) {
+  margin-left: 100px;
+  width: 500px;
+}
+.wrap {
+  width: 1200px;
+  margin: 0 auto;
+}
+.cloth {
+  width: 1200px;
+  height: 150px;
+  border: 1px solid #ddd;
+  overflow: hidden;
+  margin: 0 auto;
+  margin-top: 50px;
+  padding: 24px 15px;
+  box-sizing: border-box;
+}
+.cloth > input {
+  float: left;
+  vertical-align: middle;
+  margin-top: 25px;
+}
+.cloth img {
+  width: 78px;
+  height: 78px;
+  float: left;
+  margin-left: 5px;
+}
+.cloth .font {
+  display: inline-block;
+  float: left;
+  width: 350px;
+  font-size: 14px;
+  color: #333;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  margin-left: 20px;
+}
+.cloth .size {
+  width: 136px;
+  height: 100px;
+  float: left;
+  margin-left: 55px;
+}
+.cloth .size span {
+  display: block;
+  font-size: 12px;
+  color: #333;
+}
+.cloth .sprice {
+  float: left;
+  font-size: 14px;
+  color: #333;
+}
+.cloth .all_sprice {
+  float: left;
+  font-size: 14px;
+  color: #333;
+  margin-left: 15px;
+  color: #ff4466;
+}
+.cloth i {
+  font-size: 12px;
+  color: #333;
+  font-style: normal;
+  float: left;
+  margin-left: 15px;
+}
+.cloth_count {
+  width: 100px;
+  height: 55px;
+  float: left;
+  margin-top: 5px;
+  margin-left: 15px;
+}
+.cloth_count button {
+  width: 25px;
+  height: 25px;
+  text-align: center;
+  line-height: 25px;
+  outline: none;
+  border: none;
+  float: left;
+  background: #fff;
+  border: 1px solid #999;
+  box-sizing: border-box;
+  cursor: pointer;
+}
+.cloth_count button:nth-of-type(1) {
+  border-right: none;
+}
+.cloth_count button:nth-of-type(2) {
+  border-left: none;
+}
+.cloth_count #num {
+  width: 40px;
+  height: 21px;
+  outline: none;
+  text-align: center;
+  float: left;
+}
+.del {
+  cursor: pointer;
+}

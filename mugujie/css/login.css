@@ -1,0 +1,258 @@
+@charset 'utf-8';
+.head {
+  width: 100%;
+  padding: 20px 0;
+  box-sizing: border-box;
+}
+.head .head_title {
+  width: 1014px;
+  height: 100%;
+  overflow: hidden;
+  margin: 0 auto;
+}
+.head .head_title h1 {
+  width: 130px;
+  height: 100%;
+  float: left;
+  position: relative;
+}
+.head .head_title h1 img {
+  width: 100%;
+  height: 100px;
+  position: absolute;
+  top: -37px;
+}
+.head .head_title p {
+  width: 860px;
+  height: 37px;
+  float: left;
+  margin-left: 20px;
+  box-sizing: border-box;
+  vertical-align: middle;
+}
+.head .head_title p span {
+  width: 840px;
+  display: inline-block;
+  border: 1px solid #ffc0cc;
+  background: #ffefef;
+  color: #666666;
+  font-size: 12px;
+  padding: 9px 0 8px 20px;
+  box-sizing: border-box;
+}
+.banner {
+  width: 100%;
+  height: 600px;
+  background: url(../img/bg1.png) no-repeat;
+  position: relative;
+}
+.banner .login {
+  width: 400px;
+  position: absolute;
+  right: 230px;
+  top: 80px;
+  padding: 5px 5px 15px 5px;
+  box-sizing: border-box;
+  background: rgba(254, 220, 217, 0.9);
+}
+.banner .login h4 {
+  width: 100%;
+  height: 40px;
+  margin: 0;
+  text-align: center;
+  font-size: 24px;
+  font-weight: normal;
+  color: #ff4466;
+  background: url(../img/login1.png) no-repeat 100% 50%;
+}
+.banner .login p {
+  text-align: center;
+  margin-bottom: 10px;
+  font-size: 16px;
+  color: #333;
+}
+.banner .login p input {
+  width: 200px;
+  height: 30px;
+  outline: none;
+  padding: 0 5px;
+  box-sizing: border-box;
+}
+.banner .login b {
+  display: block;
+  width: 200px;
+  height: 50px;
+  background: url(../img/login2.png) no-repeat;
+  margin: 0 auto;
+}
+.banner .login img {
+  width: 200px;
+  height: 200px;
+  margin: 0 auto;
+  display: block;
+}
+.banner .login a {
+  text-decoration: underline;
+  display: block;
+  text-align: center;
+  margin: 8px auto;
+  color: #333;
+  font-size: 16px;
+}
+.banner .login_btn {
+  width: 100%;
+  height: 50px;
+  padding-left: 115px;
+  box-sizing: border-box;
+}
+.banner .login_btn button {
+  width: 50px;
+  height: 30px;
+  text-align: center;
+  margin-left: 28px;
+  font-size: 14px;
+  color: #333;
+}
+.banner .register {
+  width: 400px;
+  position: absolute;
+  right: 230px;
+  top: 180px;
+  padding: 5px 5px 15px 5px;
+  box-sizing: border-box;
+  background: rgba(254, 220, 217, 0.9);
+  display: none;
+}
+.banner .register h4 {
+  width: 100%;
+  height: 40px;
+  margin: 0;
+  text-align: center;
+  font-size: 24px;
+  font-weight: normal;
+  color: #ff4466;
+  background: url(../img/login1.png) no-repeat 100% 50%;
+}
+.banner .register p {
+  text-align: center;
+  margin-bottom: 10px;
+  margin-top: 5px;
+  font-size: 16px;
+  color: #333;
+}
+.banner .register p input {
+  width: 200px;
+  height: 30px;
+  outline: none;
+  padding: 0 5px;
+  box-sizing: border-box;
+}
+.banner .register span {
+  font-size: 12px;
+  color: #666;
+  margin-left: 112px;
+}
+.banner .tips1,
+.banner .tips2 {
+  width: 170px;
+  margin: 0 auto;
+  color: red;
+  display: none;
+}
+.banner .register_btn {
+  width: 100%;
+  height: 50px;
+  padding-left: 125px;
+  box-sizing: border-box;
+}
+.banner .register_btn button {
+  width: 50px;
+  height: 30px;
+  text-align: center;
+  margin-left: 28px;
+  margin-top: 5px;
+  font-size: 14px;
+  color: #333;
+}
+.footer {
+  width: 1200px;
+  height: 160px;
+  margin: 0 auto;
+  margin-top: 100px;
+}
+.footer ol {
+  width: 100%;
+  overflow: hidden;
+}
+.footer ol li {
+  overflow: hidden;
+  float: left;
+}
+.footer ol li a {
+  float: left;
+  color: #666;
+  padding: 0 12px;
+  font-size: 12px;
+}
+.footer ol li a:after {
+  content: '';
+  display: inline-block;
+  width: 1px;
+  height: 12px;
+  border-right: 1px solid #666;
+  vertical-align: middle;
+  padding-right: 28px;
+}
+.footer ol li a:hover {
+  color: #FF4466;
+}
+.footer ol li:last-of-type a:after {
+  content: '';
+  border-right: 0;
+}
+.footer p {
+  text-align: center;
+  margin-top: 20px;
+}
+.footer p::before {
+  content: '';
+  width: 470px;
+  height: 4px;
+  border-top: 2px solid rgba(102, 102, 102, 0.3);
+  display: inline-block;
+  margin-right: 30px;
+}
+.footer p::after {
+  content: '';
+  width: 400px;
+  height: 4px;
+  border-top: 2px solid rgba(102, 102, 102, 0.3);
+  display: inline-block;
+  margin-left: 30px;
+}
+.footer ul {
+  width: 100%;
+  overflow: hidden;
+  text-align: center;
+  padding-left: 95px;
+  box-sizing: border-box;
+}
+.footer ul li {
+  float: left;
+}
+.footer ul li a {
+  font-size: 12px;
+  color: #666;
+  padding-left: 12px;
+}
+.footer ul li a:after {
+  content: '';
+  width: 1px;
+  height: 10px;
+  border-right: 1px solid rgba(102, 102, 102, 0.3);
+  vertical-align: middle;
+  padding-right: 12px;
+}
+.footer ul li:nth-of-type(6) {
+  margin-left: 25px;
+}

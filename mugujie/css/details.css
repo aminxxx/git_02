@@ -1,0 +1,700 @@
+@charset 'utf-8';
+.merchant {
+  width: 100%;
+  height: 100px;
+  border-bottom: 1px solid #ddd;
+  box-sizing: border-box;
+}
+.merchant .merchant_info {
+  width: 1200px;
+  height: 100px;
+  margin: 0 auto;
+}
+.merchant .details_info {
+  width: 210px;
+  height: 100%;
+  float: left;
+  overflow: hidden;
+}
+.merchant .details_info > img {
+  float: left;
+  width: 40px;
+  display: block;
+  height: 40px;
+  margin-top: 15px;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  border-radius: 50%;
+}
+.merchant .details_right {
+  width: 162px;
+  height: 100%;
+  float: left;
+  padding: 10px 0 0 10px;
+  box-sizing: border-box;
+}
+.merchant .details_right h4 {
+  font-size: 12px;
+  font-weight: normal;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+.merchant .details_right p {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  font-size: 0;
+}
+.merchant .details_right p b {
+  display: inline-block;
+  width: 12px;
+  height: 16px;
+  background: url(../img/start2.png) no-repeat 0 -11px;
+  background-size: 13px 26px;
+  margin-right: 5px;
+}
+.merchant .details_right div {
+  width: 100%;
+  margin-top: -10px;
+}
+.merchant .details_right div span {
+  float: left;
+  padding: 0 10px;
+  font-size: 12px;
+  height: 20px;
+  line-height: 20px;
+  color: #666;
+  border: 1px solid #ddd;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  -ms-border-radius: 6px;
+  border-radius: 6px;
+}
+.merchant .details_right div img {
+  width: 57px;
+  height: 24px;
+  float: left;
+  margin-left: 5px;
+}
+.merchant .details_right div i {
+  width: 15px;
+  height: 5px;
+  float: left;
+  margin-top: 10px;
+  margin-left: 5px;
+  background: url(../img/down.png) no-repeat;
+  background-size: 50% 100%;
+}
+.merchant .details_search {
+  width: 520px;
+  height: 100%;
+  float: left;
+  padding-top: 28px;
+  margin-left: 50px;
+  box-sizing: border-box;
+}
+.merchant .details_search input {
+  width: 340px;
+  height: 50px;
+  float: left;
+  padding: 0 15px;
+  box-sizing: border-box;
+  outline: none;
+}
+.merchant .details_search span {
+  float: left;
+  width: 77px;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  font-size: 14px;
+  color: #fff;
+  background: #8d8d8d;
+  -webkit-border-radius: 0 4px 4px 0;
+  -moz-border-radius: 0 4px 4px 0;
+  -ms-border-radius: 0 4px 4px 0;
+  border-radius: 0 4px 4px 0;
+}
+.merchant .details_search button {
+  width: 75px;
+  height: 50px;
+  line-height: 50px;
+  color: #fff;
+  font-size: 14px;
+  text-align: center;
+  outline: none;
+  background: #8d8d8d;
+  border: none;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  border-radius: 4px;
+  margin-left: 15px;
+}
+.merchant .details_icon {
+  width: 208px;
+  height: 48px;
+  float: left;
+  margin-top: 28px;
+  margin-left: 25px;
+  position: relative;
+}
+.merchant .details_icon a {
+  display: block;
+  float: left;
+  width: 48px;
+  height: 100%;
+  line-height: 12px;
+  color: #333;
+  font-size: 12px;
+  padding-top: 27px;
+  box-sizing: border-box;
+}
+.merchant .details_icon a:nth-of-type(1) {
+  background: url(../img/h5.png) no-repeat;
+  background-size: 40% 40%;
+}
+.merchant .details_icon a:nth-of-type(2) {
+  background: url(../img/h8.png) no-repeat;
+  background-size: 40% 40%;
+}
+.merchant .details_icon a:nth-of-type(3) {
+  background: url(../img/h6.png) no-repeat;
+  background-size: 40% 40%;
+}
+.merchant .details_icon a:nth-of-type(4) {
+  background: url(../img/h7.png) no-repeat center 0;
+  background-size: 40% 40%;
+}
+.merchant .details_icon .code {
+  width: 180px;
+  height: 200px;
+  position: absolute;
+  right: -40px;
+  top: 50px;
+  z-index: 9999;
+  display: none;
+}
+.merchant .details_icon .code img {
+  width: 100%;
+  height: 100%;
+}
+.merchant .login {
+  width: 128px;
+  height: 48px;
+  float: right;
+  margin-right: 40px;
+  margin-top: 28px;
+  position: relative;
+}
+.merchant .login a {
+  display: block;
+  font-size: 12px;
+  color: #333;
+  padding-left: 40px;
+  float: right;
+  background: url(../img/h9.png) no-repeat;
+  background-size: 50% 100%;
+}
+.merchant span {
+  display: none;
+  position: absolute;
+  top: 0;
+  right: -58px;
+  color: #333;
+  cursor: pointer;
+}
+.bg {
+  width: 100%;
+  height: 150px;
+  clear: both;
+  margin: 0;
+}
+.bg img {
+  width: 100%;
+  height: 100%;
+}
+.nav {
+  width: 100%;
+  height: 30px;
+  background: #4d4d4d;
+}
+.nav .nav_list {
+  width: 1200px;
+  height: 100%;
+  margin: 0 auto;
+}
+.nav .nav_list li {
+  float: left;
+  height: 100%;
+  line-height: 30px;
+}
+.nav .nav_list li a {
+  padding: 0 15px;
+  font-size: 12px;
+  color: #fff;
+}
+.nav .nav_list li a:after {
+  content: '';
+  width: 1px;
+  height: 10px;
+  border-right: 1px solid #666;
+  display: inline-block;
+  margin-left: 15px;
+}
+.nav .nav_list li:last-of-type a::after {
+  border-right: none;
+}
+.cloth_info {
+  width: 1200px;
+  height: 680px;
+  margin: 0 auto;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.cloth_info .cloth {
+  width: 955px;
+  height: 100%;
+  float: left;
+}
+.cloth_info .cloth_img {
+  width: 400px;
+  height: 100%;
+  float: left;
+  position: relative;
+}
+.cloth_info .cloth_img .mImg {
+  width: 400px;
+  height: 600px;
+}
+.cloth_info .cloth_img .mImg > img {
+  width: 100%;
+  height: 600px;
+}
+.cloth_info .cloth_img .cloth_list {
+  width: 100%;
+  overflow: hidden;
+  margin-top: 10px;
+}
+.cloth_info .cloth_img .cloth_list li {
+  width: 60px;
+  height: 60px;
+  float: left;
+  margin-right: 10px;
+  position: relative;
+}
+.cloth_info .cloth_img .cloth_list li img {
+  width: 100%;
+  height: 100%;
+}
+.cloth_info .cloth_img .cloth_list li span {
+  display: block;
+  width: 60px;
+  height: 60px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  background: rgba(255, 255, 255, 0.4);
+}
+.cloth_info .cloth_img .cloth_list li:hover span {
+  display: none;
+}
+/* 放大镜 */
+.item {
+  width: 100px;
+  height: 100px;
+  background: rgba(0, 0, 0, 0.08);
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+.glass {
+  width: 300px;
+  height: 300px;
+  position: absolute;
+  left: 800px;
+  top: 400px;
+  overflow: hidden;
+  display: none;
+}
+.glass img {
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+.cloth_details {
+  float: left;
+  width: 520px;
+  height: 100%;
+  padding-left: 35px;
+  box-sizing: border-box;
+}
+.cloth_details h3 {
+  color: #333;
+  font-size: 20px;
+}
+.cloth_details del {
+  font-size: 14px;
+  color: #999;
+}
+.cloth_details .price {
+  width: 100%;
+  height: 40px;
+}
+.cloth_details .price span {
+  float: left;
+  font-size: 12px;
+  color: #999;
+}
+.cloth_details .price span:nth-of-type(1) {
+  font-size: 14px;
+}
+.cloth_details .price span:nth-of-type(2) {
+  margin-left: 200px;
+}
+.cloth_details .price span:nth-of-type(3) {
+  margin-left: 10px;
+}
+.cloth_details .price span b {
+  color: red;
+  font-size: 20px;
+}
+.cloth_details .price span i {
+  font-style: normal;
+  font-size: 12px;
+  color: #333;
+}
+.cloth_details .lianxi {
+  width: 100%;
+  height: 35px;
+  margin-top: 5px;
+}
+.cloth_details .lianxi span {
+  font-size: 14px;
+  color: #999;
+}
+.cloth_details .lianxi span img {
+  width: 85px;
+  height: 24px;
+}
+.cloth_details .cloth_color {
+  width: 100%;
+  height: 55px;
+  margin-top: 5px;
+}
+.cloth_details .cloth_color span {
+  font-size: 14px;
+  color: #999;
+}
+.cloth_details .cloth_color span img {
+  width: 45px;
+  height: 45px;
+  border: 2px solid transparent;
+  box-sizing: border-box;
+}
+.cloth_details .cloth_color span img:hover {
+  border: 2px solid #999;
+}
+.cloth_details .cloth_size {
+  width: 100%;
+  height: 55px;
+  margin-top: 5px;
+}
+.cloth_details .cloth_size span {
+  font-size: 14px;
+  color: #999;
+  float: left;
+  overflow: hidden;
+}
+.cloth_details .cloth_size span b {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+  font-size: 14px;
+  color: #333;
+  border: 2px solid #999;
+  box-sizing: border-box;
+}
+.cloth_details .cloth_size span b:nth-of-type(1) {
+  margin-left: 10px;
+}
+.cloth_details .cloth_size span b:hover {
+  border: 2px solid #333;
+}
+.cloth_details .cloth_count {
+  width: 100%;
+  height: 55px;
+  margin-top: 5px;
+}
+.cloth_details .cloth_count span {
+  font-size: 14px;
+  color: #999;
+  float: left;
+}
+.cloth_details .cloth_count button {
+  width: 25px;
+  height: 25px;
+  text-align: center;
+  line-height: 25px;
+  outline: none;
+  border: none;
+  float: left;
+  background: #fff;
+  border: 1px solid #999;
+  box-sizing: border-box;
+}
+.cloth_details .cloth_count button:nth-of-type(1) {
+  border-right: none;
+}
+.cloth_details .cloth_count button:nth-of-type(2) {
+  border-left: none;
+}
+.cloth_details .cloth_count #num {
+  width: 40px;
+  height: 21px;
+  outline: none;
+  text-align: center;
+  float: left;
+}
+.cloth_details .cloth_count b {
+  font-size: 12px;
+  color: #999;
+  font-weight: normal;
+  margin-left: 5px;
+  margin-top: 4px;
+  float: left;
+}
+.cloth_btn {
+  width: 100%;
+  height: 75px;
+  padding: 5px 0 20px 60px;
+}
+.cloth_btn a {
+  width: 200px;
+  height: 50px;
+  float: left;
+  text-align: center;
+  line-height: 50px;
+  background: red;
+  color: #fff;
+  font-size: 18px;
+}
+.cloth_btn span {
+  width: 200px;
+  height: 50px;
+  float: left;
+  text-align: center;
+  line-height: 50px;
+  border: 1px solid #999;
+  font-size: 18px;
+  color: #333;
+  box-sizing: border-box;
+  margin-left: 10px;
+  cursor: pointer;
+}
+.share {
+  width: 100%;
+  height: 35px;
+  padding-left: 60px;
+  box-sizing: border-box;
+  position: relative;
+}
+.share span {
+  width: 64px;
+  height: 26px;
+  float: left;
+  text-align: center;
+  line-height: 26px;
+}
+.share span:nth-of-type(1) {
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  border-radius: 8px;
+  font-size: 12px;
+  color: #999;
+  border: 1px solid #999;
+  background: url(../img/stat.png) no-repeat 10% 43%;
+  background-size: 25% 50%;
+}
+.share span:nth-of-type(2) {
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  border-radius: 8px;
+  font-size: 12px;
+  color: #999;
+  border: 1px solid #999;
+  margin-left: 8px;
+}
+.share span:nth-of-type(2) b {
+  font-size: 14px;
+  color: red;
+  margin-right: 5px;
+}
+.share span:nth-of-type(3) {
+  font-size: 12px;
+  color: #999;
+  width: 44px;
+}
+.cloth_serve {
+  width: 100%;
+  margin-top: 10px;
+}
+.cloth_serve span {
+  font-size: 12px;
+  color: #999;
+  float: left;
+}
+.cloth_serve ul {
+  width: 415px;
+  float: left;
+}
+.cloth_serve ul li {
+  float: left;
+  margin-right: 15px;
+  margin-bottom: 15px;
+}
+.cloth_serve ul li img {
+  width: 24px;
+  height: 24px;
+  vertical-align: middle;
+}
+.cloth_serve ul li b {
+  font-weight: normal;
+  font-size: 12px;
+  color: #333;
+}
+.cloth_serve ul:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+.cloth_way {
+  width: 100%;
+}
+.cloth_way span {
+  font-size: 12px;
+  color: #999;
+  float: left;
+}
+.cloth_way img {
+  width: 20px;
+  height: 20px;
+}
+.other_cloth {
+  float: left;
+  width: 140px;
+  height: 100%;
+  border-left: 1px solid #eee;
+  box-sizing: border-box;
+  padding-left: 20px;
+  margin-left: 40px;
+}
+.other_cloth h3 {
+  font-weight: normal;
+  text-align: center;
+  font-size: 16px;
+  color: #999;
+  height: 30px;
+  line-height: 30px;
+}
+.other_cloth .other {
+  width: 120px;
+}
+.other_cloth .other img {
+  width: 120px;
+  height: 180px;
+}
+.other_cloth .other p {
+  width: 100px;
+  text-align: center;
+  font-size: 12px;
+  color: #333;
+}
+.foot {
+  width: 1200px;
+  height: 160px;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+.foot ol {
+  width: 100%;
+  overflow: hidden;
+}
+.foot ol li {
+  overflow: hidden;
+  float: left;
+}
+.foot ol li a {
+  float: left;
+  color: #666;
+  padding: 0 12px;
+  font-size: 12px;
+}
+.foot ol li a:after {
+  content: '';
+  display: inline-block;
+  width: 1px;
+  height: 12px;
+  border-right: 1px solid #666;
+  vertical-align: middle;
+  padding-right: 28px;
+}
+.foot ol li a:hover {
+  color: #FF4466;
+}
+.foot ol li:last-of-type a:after {
+  content: '';
+  border-right: 0;
+}
+.foot p {
+  text-align: center;
+  margin-top: 20px;
+}
+.foot p::before {
+  content: '';
+  width: 470px;
+  height: 4px;
+  border-top: 2px solid rgba(102, 102, 102, 0.3);
+  display: inline-block;
+  margin-right: 30px;
+}
+.foot p::after {
+  content: '';
+  width: 400px;
+  height: 4px;
+  border-top: 2px solid rgba(102, 102, 102, 0.3);
+  display: inline-block;
+  margin-left: 30px;
+}
+.foot ul {
+  width: 100%;
+  overflow: hidden;
+  text-align: center;
+  padding-left: 95px;
+  box-sizing: border-box;
+}
+.foot ul li {
+  float: left;
+}
+.foot ul li a {
+  font-size: 12px;
+  color: #666;
+  padding-left: 12px;
+}
+.foot ul li a:after {
+  content: '';
+  width: 1px;
+  height: 10px;
+  border-right: 1px solid rgba(102, 102, 102, 0.3);
+  vertical-align: middle;
+  padding-right: 12px;
+}
+.foot ul li:nth-of-type(6) {
+  margin-left: 25px;
+}

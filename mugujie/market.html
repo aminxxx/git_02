@@ -1,0 +1,532 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1" >
+	<meta http-equiv="X-UA-Compatible" content="edge" />
+	<meta name="renderer" content="webkit|ie-comp|ie-stand">
+	<title></title>
+	<link rel="stylesheet" href="css/swiper.min.css">
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/index.css">
+	<link rel="stylesheet" href="css/public.css">
+	<link rel="stylesheet" href="css/market.css">
+</head>
+<body>
+	<!-- 头部 -->
+	<div class="header">
+		<div class="header_nav">
+			<ul class="header_nav_lis">
+				<li>
+					<a href="index.html"><b></b>首页</a>
+				</li>
+				<li>
+					<a href="market.html"><b></b>商城</a>
+				</li>
+				<li><a href="#">我的订单</a></li>
+				<li class="about_lis">
+					<a href="shopCar.html">关于我们<b></b></a>
+					<div class="aboutUs">
+						<!-- <ul>
+							<li><a href="#">新手帮助</a></li>
+							<li><a href="#">新手帮助</a></li>
+						</ul> -->
+						<!-- <div class="about_info">
+							<h2>©2019 Mogujie.com 杭州卷瓜网络有限公司</h2>
+							<p></p>
+						</div> -->
+					</div>
+				</li>
+			</ul>
+		</div>
+		<!-- 搜索 -->
+		<div class="header_search">
+			<div class="header_logo">
+				<a href="index.html">
+					<img src="img/logo.png">
+				</a>
+			</div>
+			<!-- 目录 -->
+			<div class="header_catalog">
+				<span>目录</span>
+				<!-- 主题市场 -->
+				<div class="market">
+					<!--<div>
+					 	<h3>主题市场</h3>
+						<a href="#">上衣</a>
+						<a href="#">上衣</a>
+						<a href="#">上衣</a> 
+					</div>
+					<div></div>
+					<div></div>-->
+				</div>
+			</div>
+			<div class="search">
+				<input type="text" placeholder="凉鞋">
+				<button></button>
+				<div class="search_info">
+					<!-- <div class="search_info_about">
+						<a href="#">
+							<span><img src=""></span>
+							9999话题
+							</a>
+					</div>
+					<ul class="search_lis">
+						<li>
+							<a href="#">
+								<p>11111</p>
+								<span>aaaa</span>
+								<span>bbbb</span>
+								<span>bbbb</span>
+								<span>bbbb</span>
+							</a>
+						</li>
+					</ul> -->
+				</div>
+			</div>
+			<div class="search_icon">
+				<a href="#">消息</a>
+				<a href="#">收藏</a>
+				<a href="shopCar.html">购物车</a>
+				<a href="#" class="show_code">下载APP</a>
+				<div class="code">
+					<img src="img/code.png" alt="">
+				</div>
+			</div>
+			<div class="login">
+				<a href="login.html">登录</a>
+			</div>
+		</div>
+	</div>
+	<!-- 定位的搜索 -->
+	<div class="header_wrap" id="location">
+			<div class="header_search">
+				<div class="header_logo">
+					<p id="all">全部商品分类</p>
+				</div>
+				<div class="search">
+					<input type="text" placeholder="凉鞋">
+					<button></button>
+					<div class="search_info"></div>
+				</div>
+				<div class="search_icon">
+					<a href="#">消息</a>
+					<a href="#">收藏</a>
+					<a href="#">购物车</a>
+					<a href="#" class="show_code">下载APP</a>
+					<div class="code">
+						<img src="img/code.png" alt="">
+					</div>
+				</div>
+				<div class="login">
+					<a href="login.html">登录</a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- 内容 -->
+	<div class="market_nav">
+		<ul class="market_nav_theme">
+			<li>
+				<div class="market_nav_box">
+					<span></span>
+					<a href="#">主题市场</a>
+					<span></span>
+				</div>
+				<div class="market_nav_info">
+					<ul class="market_nav_list">
+						<!-- <li>
+							<h3><a href="#">上衣</a></h3>
+							<a href="#">外套</a>
+						</li> -->
+					</ul>
+					<div class="sideList">
+						<div class="sideList_left">
+							<!-- <div class="sideList_left_div">
+								<h3>
+									<b>媒体点我</b>
+									<span>更多<i>></i></span>
+								</h3>
+								<a href="#">水电费</a>
+								<a href="#">水电费</a>
+							</div> -->
+						</div>
+						<div class="sideList_right">
+							<!-- <h4>/猜你喜欢/</h4>
+							<div>
+								<a href="#">
+									<img src="" alt="">
+									<span></span>
+									<p>[大大方方的省份jdfbjhasd]</p>
+								</a>
+							</div> -->
+						</div>
+					</div>
+				</div>
+			</li>
+			<li><a href="#">限时快抢</a></li>
+			<li><a href="#">专享88折</a></li>
+		</ul>
+	</div>
+	<div class="wrap">
+		<div class="wrap_banner">
+			<!-- 轮播 -->
+			<div class="swiper-container" id="banner">
+				<div class="swiper-wrapper" id="banner_pic">
+					<!-- <div class="swiper-slide"><img src="img/banner1.jpg"></div>
+					<div class="swiper-slide">Slide 2</div> -->
+				</div>
+				<!-- 如果需要分页器 -->
+				<div class="swiper-pagination"></div>
+			</div>
+			<!--右侧  -->
+			<div class="wrap_banner_user">
+				<div class="wrap_user">
+					<a href="#">
+						<!-- <img src="img/user.png"> -->
+					</a>
+					<p>菇凉好！欢迎来逛蘑菇街~</p>
+					<span>会员中心</span>
+				</div>
+				<div class="wrap_gift">
+					<p>来蘑菇街APP</p>
+					<span>海量时尚好货</span>
+					<a href="#"></a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- 今日必抢 -->
+	<div class="rush">
+		<div class="rush_seckill">
+			<div class="rush_time">
+				<span>00</span>
+				<b>:</b>
+				<span>00</span>
+				<b>:</b>
+				<span>00</span>
+			</div>
+		</div>
+		<!-- 轮播 -->
+		<div class="rush_slideshow">
+			<div class="swiper-container" id="rush_swiper">
+				<div class="swiper-wrapper" id="rush_swiper_pic">
+					<!-- <div class="swiper-slide rush_clothes">
+						<img/>
+						<p>刷卡缴费和健身卡的花费</p>
+						<span>
+							<b>￥444</b>
+							<del>￥999</del>
+						</span>
+					</div> -->
+					<!-- <div class="swiper-slide rush_clothes">Slide 2</div>
+					<div class="swiper-slide rush_clothes">Slide 3</div>
+					<div class="swiper-slide rush_clothes">Slide 3</div> -->
+				</div>
+				
+				<!-- 如果需要导航按钮 -->
+				<div class="swiper-button-prev swiper-button-white"></div>
+				<div class="swiper-button-next swiper-button-white"></div>
+		
+			</div>
+		</div>
+	</div>
+	<!-- 限时快抢 -->
+	<div class="rush_limit">
+		<a href="#"><img src="img/x0.jpg"></a>
+		<a href="#"><img src="img/x2.jpg"></a>
+		<a href="#"><img src="img/x3.jpg"></a>
+		<a href="#"><img src="img/x4.jpg"></a>
+	</div>
+	<!-- 女装 -->
+	<div class="suit_dress">
+		<div class="suit_dress_nav">
+			<b>女装</b>
+			<ul>
+				<li><a href="#">卫衣</a></li>
+				<li><a href="#">T桖</a></li>
+				<li><a href="#">连衣裙</a></li>
+				<li><a href="#">牛仔外套</a></li>
+				<li><a href="#">牛仔库</a></li>
+				<li><a href="#">宽松毛衣</a></li>
+			</ul>
+		</div>
+		<div class="suit_dress_content">
+			<div class="suit_dress_left">
+				<img src="img/w1.jpg" >
+			</div>
+			<div class="suit_dress_right">
+				<!-- 轮播 -->
+				<div class="suit_dress_slideshow">
+					<div class="swiper-container" id="suit_banner">
+						<div class="swiper-wrapper" id="suit_pic">
+							<!-- <div class="swiper-slide suit_clothes">
+								<img src="img/s1.jpg">
+								<p>但是经过考虑减肥的深刻理解高考复读丽江的撒开了几顿饭</p>
+								<span>￥88</span>
+							</div>
+							<div class="swiper-slide suit_clothes">Slide 2</div>
+							<div class="swiper-slide suit_clothes">Slide 3</div>
+							<div class="swiper-slide suit_clothes">Slide 3</div> -->
+						</div>
+						
+						<!-- 如果需要导航按钮 -->
+						<div class="swiper-button-prev"></div>
+						<div class="swiper-button-next"></div>
+						
+					</div>
+				</div>
+				<!--轮播下面部分  -->
+				<div class="suit_dress_pic">
+					<!-- <img src="img/r1.jpg">
+					<img src="img/r1.jpg">
+					<img src="img/r1.jpg"> -->
+				</div>
+				<!-- 开衫外套 -->
+				<div class="suit_dress_clothes">
+					<div>
+						<a href="details.html">
+							<span>
+								<b>开衫外套</b>
+								<strong>春季单品必备</strong>
+							</span>
+							<img src="img/ss1.png">
+						</a>
+					</div>
+					<div>
+						<a href="details.html">
+							<span>
+								<b>显瘦裙装</b>
+								<strong>遮肉巧搭视觉显瘦</strong>
+							</span>
+							<img src="img/ss2.jpg">
+						</a>
+					</div>
+					<div>
+						<a href="details.html">
+							<span>
+								<b>牛仔裤</b>
+								<strong>穿出你的大长腿</strong>
+							</span>
+							<img src="img/ss3.png">
+						</a>
+					</div>
+					<div>
+						<a href="details.html">
+							<span>
+								<b>气质纱裙</b>
+								<strong>仙仙网纱 气质up</strong>
+							</span>
+							<img src="img/ss4.jpg">
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- 女鞋&&包包 -->
+	<div class="Whandbag">
+		<div class="handbag_nav">
+			<b>女鞋&包包</b>
+			<ul>
+				<li><a href="#">靴子</a></li>
+				<li><a href="#">单鞋</a></li>
+				<li><a href="#">运动鞋</a></li>
+				<li><a href="#">休闲鞋</a></li>
+				<li><a href="#">帆布鞋</a></li>
+			</ul>
+		</div>
+		<div class="handbag_content">
+			<div class="handbag_left">
+				<img src="img/ss5.jpg" >
+			</div>
+			<div class="handbag_right">
+				<!-- 轮播 -->
+				<div class="handbag_slideshow">
+					<div class="swiper-container" id="handbag_banner">
+						<div class="swiper-wrapper" id="handbag_pic">
+							<!-- <div class="swiper-slide handbag">
+								<ul class="handbag_list">
+									<li>
+										<a href="#">
+											<img src="img/s1.jpg">
+											<p>但是经过考虑减肥的深刻理解高考复读丽江的撒开了几顿饭</p>
+											<span>￥88</span>
+										</a>
+									</li>
+								</ul>
+							</div> -->
+							<!-- <div class="swiper-slide handbag">Slide 2</div>
+							<div class="swiper-slide handbag">Slide 3</div>
+							<div class="swiper-slide handbag">Slide 3</div> -->
+						</div>
+						
+						<!-- 如果需要分页器 -->
+						<div class="swiper-pagination"></div>
+						
+					</div>
+				</div>
+				<!-- 热销商品 -->
+				<div class="hot_product">
+					<h2>
+						<span>热销商品推荐</span>
+						<b>换一批</b>
+					</h2>
+					<div class="hot_shoe">
+						<a href="#">
+							<img src="img/ss6.jpg">
+							<span>
+								<b>蓓尔明星同款韩版夏季透气小白鞋新款女鞋子蝴蝶结包头半拖帆布鞋女学生百搭系带板鞋</b>
+								<i>￥59</i>
+							</span>
+						</a>
+					</div>
+					<div class="hot_shoe">
+						<a href="#">
+							<img src="img/ss7.jpg">
+							<span>
+								<b>ins包包女2018新款韩版简约百搭大容量chic水桶包港风单肩斜挎包10251820</b>
+								<i>￥68</i>
+							</span>
+						</a>
+					</div>
+					<div class="hot_shoe">
+						<a href="#">
+							<img src="img/ss8.jpg">
+							<span>
+								<b>老爹鞋女2018秋冬季新款韩版休闲运动鞋百搭原宿风厚底小白鞋学生跑步鞋ins超火的女鞋子潮</b>
+								<i>￥98</i>
+							</span>
+						</a>
+					</div>
+					<div class="hot_shoe">
+						<a href="#">
+							<img src="img/ss9.jpg">
+							<span>
+								<b>显瘦腿弹力靴子女平底长筒靴2019韩版百搭学生秋冬季新款女鞋英伦风过膝长靴女高跟加绒高筒靴</b>
+								<i>￥89</i>
+							</span>
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- 男友&& -->
+	
+	<!-- 美妆 -->
+	
+	<!-- 内衣 -->
+	
+	<!-- 家具 -->
+	
+	<!--母婴  -->
+	
+	
+	<!-- 猜你喜欢 -->
+	<div class="guess_like">
+		<h3>猜你喜欢</h3>
+		<ul>
+			<li>
+				<!-- <div class="guess_like_mask">
+					<a href="#">
+						<img src="img/r2.jpg">
+						<strong>找相似</strong>
+						<p>可接待沙发客来节省电话费就开始到凤凰老师讲的飞快乐山大佛</p>
+						<span>
+							<b>￥333</b>
+							<del>￥2888</del>
+							<i>189</i>
+						</span>
+					</a>
+				</div> -->
+			</li>
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+		</ul>
+	</div>
+	
+	
+	
+	<div class="footer">
+		<div class="footer_content">
+			<h2></h2>
+			<div class="footer_list">
+				<ul>
+					<li>新手帮助</li>
+					<li><a href="#">常见问题</a></li>
+					<li><a href="#">自助服务</a></li>
+					<li><a href="#">联系客服</a></li>
+					<li><a href="#">意见反馈</a></li>
+				</ul>
+				<ul>
+					<li>权益保障</li>
+					<li>全国包邮</li>
+					<li>7天无理由退货</li>
+					<li>退货运费补贴</li>
+					<li>限时发货</li>
+				</ul>
+				<ul>
+					<li>支付方式</li>
+					<li>微信支付</li>
+					<li>支付宝</li>
+					<li>白付美支付</li>
+				</ul>
+				<ul>
+					<li>移动客户端下载</li>
+					<li>蘑菇街</li>
+					<li>美丽说</li>
+					<li>uni引力</li>
+				</ul>
+			</div>
+			<div class="footer_about">
+				<ol>
+					<li><a href="#">关于我们</a></li>
+					<li><a href="#">招聘信息</a></li>
+					<li><a href="#">联系我们</a></li>
+					<li><a href="#">商家入驻</a></li>
+					<li><a href="#">商家后台</a></li>
+					<li><a href="#">商家社区</a></li>
+					<li><a href="#">规则中心</a></li>
+					<li><a href="#">规则众议院</a></li>
+					<li><a href="#">有害信息举报</a></li>
+					<li><a href="#">用户隐私</a></li>
+				</ol>
+				<p>@2019Mogujie.com杭州卷瓜网络有限公司</p>
+				<ul>
+					<li><a href="#">营业执照：912201065526808764</a></li>
+					<li><a href="#">网络文化许可证：浙网文（2016）0349-219</a></li>
+					<li><a href="#">增值电信业务营业许可证：浙B2-20110349</a></li>
+					<li><a href="#">安全责任书</a></li>
+					<li><a href="#">浙公网安备330106602002329</a></li>
+					<li><a href="#">互联网药品信息服务资格证书编号：（浙）-经营-2018-0002</a></li>
+					<li><a href="#">浙网食A33010003</a></li>
+					<li><a href="#">出版物网络交易平台服务经营备案证</a></li>
+					<li><a href="#">（浙）网械平台备案字【2018】第00006号</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<div class="position_nav">
+		<ul>
+			<li><a href="#">首页</a></li>
+			<li><a href="#">优惠券</a></li>
+			<li><a href="#">钱包</a></li>
+			<li><a href="#">客户服务</a></li>
+			<li><a href="#">商家后台</a></li>
+		</ul>
+		<a class="position_nav_top"><img src="img/xuebi_03.png"/></a>
+	</div>
+	<script src="js/swiper.min.js"></script>
+	<script src="js/jquery.js"></script>
+	<script src="js/indexData.js"></script>
+	<script src="js/1.js"></script>
+	<script src="js/mainMarketDat.js"></script>
+	<script src="js/guess.js"></script>
+	<script src="js/public.js"></script>
+	<script src="js/market.js"></script>
+	
+</body>
+</html>
